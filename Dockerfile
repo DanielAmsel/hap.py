@@ -27,6 +27,7 @@ RUN apt-get update && \
         python-scipy \                    
         software-properties-common \
         wget \
+        tabix \
         zlib1g-dev && \
     apt-get clean -y
 
